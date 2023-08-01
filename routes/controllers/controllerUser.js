@@ -13,7 +13,7 @@ const apiErrorRes = globalFunction.apiErrorRes;
 
 async function getDeviceData(req, res) {
   console.log('llllllllllllllllllllllll');
-  return apiSuccessRes(req, res, CONSTANTS_MSG.REGISTRATION_SUCCESS_MESSAGE);
+  return apiSuccessRes(req, res, "SUCCESS", { deviceId: req.query.deviceId });
 }
 
 router.get('/getDeviceData', getDeviceData);

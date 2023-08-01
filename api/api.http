@@ -1,6 +1,6 @@
 
 
 ### Term and condition API 
-POST http://localhost:5000/api/v1/getDeviceData HTTP/1.1
+GET http://localhost:5000/api/v1/getDeviceData?deviceId=333333 HTTP/1.1
 Content-type: application/json
 
