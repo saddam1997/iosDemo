@@ -15,7 +15,7 @@ async function getDeviceData(req, res) {
   console.log('llllllllllllllllllllllll');
   return apiSuccessRes(req, res, "SUCCESS", { deviceId: req.query.deviceId });
 }
-
+// sdfasd
 router.get('/getDeviceData', getDeviceData);
 
 
